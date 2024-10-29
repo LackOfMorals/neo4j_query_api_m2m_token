@@ -201,7 +201,7 @@ A token to use with the Query API is obtained from **https://YOUR_DEVELOPER_ACCO
 
 Replace
 
-* YOUR_DEVELOPER_ACCOUNT_DOMAIN
+* YOUR_OKTA_ACCOUNT_DOMAIN
 
 * YOUR_SCOPE_FROM_OKTA
 
@@ -214,7 +214,7 @@ with values from the Okta configuration
 ```Bash
 curl --request POST \
 
---url https://YOUR_DEVELOPER_ACCOUNT_DOMAIN/oauth2/default/v1/token \
+--url https://YOUR_OKTA_ACCOUNT_DOMAIN/oauth2/default/v1/token \
 --header 'accept: application/json' \
 --header 'cache-control: no-cache' \
 --header 'content-type: application/x-www-form-urlencoded' \
